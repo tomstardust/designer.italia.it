@@ -10,8 +10,8 @@ La validità dell’informativa contenuta nella presente pagina è limitata al s
 Il titolare del trattamento dei dati raccolti è:
 
 Agenzia per l’Italia Digitale
--	Indirizzo Via Liszt 21 - 00144 Roma(link is external)
--	Email info@agid.gov.it(link sends e-mail)
+-	Indirizzo Via Liszt 21 - 00144 Roma
+-	Email info@agid.gov.it 
 -	Telefono: +39 06852641
 
 I trattamenti di dati connessi al modulo di richiesta informazioni hanno luogo presso la sede dell’Agenzia e sono curati, tramite strumenti elettronici e previa adozione delle idonee misure di sicurezza, da personale in servizio presso l’ufficio incaricato del trattamento.
