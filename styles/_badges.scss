@@ -1,0 +1,33 @@
+/*
+ *  Bootstrap override
+ * -------------------
+ */
+$badge-size: 2.4rem;
+
+.badge {
+  padding: 0;
+  line-height: $badge-size;
+  font-weight: normal;
+  font-size: 1.3rem;
+  min-width: $badge-size;
+}
+
+p .badge {
+  margin-top: -0.5rem;
+}
+
+.badge-container {
+  margin-right: $badge-size;
+  
+  .glyphicon, &.glyphicon {
+    font-size: $badge-size + 1;
+  }
+  
+  .badge {
+    position: absolute;
+    top: -$badge-size/2;
+    right: -$badge-size/2;
+    z-index: 100;
+  }
+}
+

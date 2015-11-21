@@ -1,0 +1,185 @@
+/*
+ *  Bootstrap tweaks
+ *  -----------------
+ */
+$article-max-text-width: 55rem;
+$article-max-block-swidth: 60rem;
+
+main {
+  min-height: 50rem;
+}
+
+.container {
+  min-width: 200px;
+}
+
+article  {
+  table, pre, div {
+    max-width: $article-max-block-swidth;
+  }
+}
+
+article img {
+  @extend .img-responsive;
+}
+
+article {
+  .lg-callout,
+  p, 
+  ul, 
+  ol,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    max-width: $article-max-text-width;
+  }
+}
+
+article table {
+  @extend .table;
+  @extend .table-striped;
+  /*  @extend .table-bordered;*/
+  margin: 3rem 0;
+  font-size: ceil($font-size-base * 0.9);
+}
+
+.modal-open img {
+  height:80%;
+}
+
+.affix-bottom {
+  position: relative;
+}
+
+/*
+ *  Stili custom del sito delle Linee Guida
+ *  ---------------------------------------
+ */
+.lg-modal {
+  margin: auto;
+  background: white;
+  overflow: scroll;
+}
+
+.lg-color-example {
+  width: 4rem;
+  height: 1rem;
+  margin-right: 1rem;
+  display: inline-block;
+}
+
+.lg-color-example-text {
+  color: color(colore-testo-principale);
+}
+
+.lg-github-link {
+  float:right;
+  margin-top: 3rem;
+  margin-bottom: -10rem;
+}
+
+.lg-partecipa {
+  text-align: center;
+  margin-top: 5rem;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  background: #66a5e3;
+  min-height: 10rem;
+  p {
+    margin: auto;
+    i {
+      font-size: 1.5rem;
+    }
+  }
+  a {
+    color: #fff;
+  }
+}
+
+.lg-versione-alpha {
+  @extend .alert-warning;
+  padding: 0.5rem 1rem;
+}
+
+/*
+ *  @FIXME: monkey patching navbar button
+ */
+.nav > li > a.btn {
+  &:hover {
+    background: #3bd4d7;
+  }
+  &:focus:focus {
+    color: $btn-primary-color !important;
+    background-color: $btn-primary-bg !important;
+    border-color: $btn-primary-border !important;    
+  }
+  &:active:active {
+    color: color(colore-ottanio-chiaro) !important;
+    background-color: color(colore-ottanio-scuro) !important;
+    border-color: color(colore-ottanio-scuro) !important;    
+  }
+  i {
+    margin-right: 2rem;
+  }
+}
+
+/*
+ * Github corners
+ * https://github.com/tholman/github-corners
+ * ----------------------
+ */
+.github-corner:hover .octo-arm {
+  animation: octocat-wave 560ms ease-in-out;
+}
+
+@keyframes octocat-wave {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  20% {
+    transform: rotate(-25deg);
+  }
+
+  40% {
+    transform: rotate(10deg);
+  }
+
+  60% {
+    transform: rotate(-25deg);
+  }
+
+  80% {
+    transform: rotate(10deg);
+  }
+
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+@media (max-width: 500px) {
+  .github-corner:hover .octo-arm {
+    animation: none;
+  }
+
+  .github-corner .octo-arm {
+    animation: octocat-wave 560ms ease-in-out;
+  }
+}
+
+/*
+ *  jQuery cookiebar
+ *  ------------------
+ */
+#cookie-bar {
+  font-size:1.4rem;
+  padding: 0.6rem;
+}
+
+#cookie-bar .cb-enable {
+  width: 10rem;
+}

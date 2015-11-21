@@ -1,0 +1,52 @@
+$color-callout-must: #F4E6F5;
+$color-callout-should: #D1E7FF;
+$color-callout-could: #EBF5EF;
+$color-callout-example: #E6E5E3;
+
+.lg-callout {
+  padding: 2rem;
+  margin: 3rem 0;
+  border-top: 1px solid #aaa;
+}
+
+.lg-callout mark {
+  background: transparent;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 5px;
+  display: block;
+  width: 100%;
+}
+
+.lg-callout-must {
+  border-top-color: darken($color-callout-must, 60);
+  background: $color-callout-must;
+  mark { 
+    color: darken($color-callout-must, 60);
+  }
+}
+
+.lg-callout-should {
+  border-top-color: darken($color-callout-should, 60);
+  background: $color-callout-should;
+  mark { 
+    color: darken($color-callout-should, 60);
+  }
+}
+
+.lg-callout-could {
+  border-top-color: darken($color-callout-could, 60);
+  background: $color-callout-could;
+  mark {
+    color: darken($color-callout-could, 60);
+  }
+}
+
+.lg-callout-example {
+  border-top-color: darken($color-callout-example, 60);
+  background: $color-callout-example;
+  mark {
+    color: darken($color-callout-example, 60);
+  }
+}
+

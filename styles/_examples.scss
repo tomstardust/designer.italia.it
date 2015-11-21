@@ -1,0 +1,90 @@
+/*
+ *  Stili per i codici di esempio delle linee guida
+ *  -----------------------------------------------
+ */
+.lg-example-result {
+  margin: 2rem 0;
+}
+.lg-example-toggle {
+  margin-bottom: 2rem;
+}
+.lg-example-code {
+  margin: 1rem 0 2rem 0;
+}
+
+.lg-example-result .well {
+  border:none;
+  background-color: white;
+  text-align: center;
+}
+
+.lg-example-grid {
+  .row > div {
+    padding: 5px;
+    margin-top: 0.5rem;
+    > div {
+      height: 8rem;
+      line-height: 8rem;
+      text-align: center;
+      background: color(colore-blu-italia);      
+      color: white;
+    }
+  }
+}
+
+.lg-example-titillium {
+  p {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    small {
+      display: block;
+    }
+  }  
+}
+
+.lg-example-tipografia {
+  div {
+    border-bottom: 1px dotted #aaa;
+    margin-bottom: 5rem;
+  }
+  small > strong {
+    font-size: $font-size-base;
+    font-variant: small-caps;
+    text-transform: lowercase;
+  }
+}
+
+.lg-example-colore-blu-italia {
+  div {
+    max-width: $article-max-text-width;
+    .h3, .h4 {
+      margin: auto;
+      max-width: 80%;
+      padding: 2rem 0;
+      color: white;
+      text-align: center;
+    }
+  }
+}
+
+.lg-example-palette-1 {
+  > div {
+    text-align: center;
+    > div {
+      height: 10rem;
+      margin-bottom: 1rem;
+      border-radius: 1rem;
+    }
+  }
+}
+.lg-example-palette-2 {
+  > div {
+    text-align: center;
+    height: 10rem;
+    margin-bottom: 1rem;
+    border-radius: 1rem;
+    > div {
+      padding: 2rem;
+    }
+  }
+}

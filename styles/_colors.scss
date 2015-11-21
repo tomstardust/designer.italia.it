@@ -1,0 +1,70 @@
+$palette: (
+colore-testo-principale: #1C2024,
+colore-testo-secondario: #5A6772,
+colore-link: #0066cc,
+colore-link-hover: #003366,
+colore-link-visitato: #428fdb,
+colore-link-negativo: #65dcdf,
+colore-link-hover-negativo: #00aeb3,
+colore-link-visitato-negativo: #90d7f0,
+colore-testo-evidenziato: #B2EBED,
+colore-link-menu: #003E54,
+colore-sfondo: #F0F0F0,
+colore-alert: #FF0000,
+colore-blu-italia: #0066CC,
+colore-blu-italia-05: #D1E7FF,
+colore-blu-italia-10: #8EBEED,
+colore-blu-italia-20: #66A5E3,
+colore-blu-italia-30: #428FDB,
+colore-blu-italia-40: #2079D4,
+colore-blu-italia-50: #0066CC,
+colore-blu-italia-60: #0059B3,
+colore-blu-italia-70: #004D99,
+colore-blu-italia-80: #004080,
+colore-blu-italia-90: #003366,
+colore-blu-italia-95: #00264D,
+colore-footer-background: #30373d,
+colore-footer-testo: #a5abb0,
+colore-grigio-scuro: #1C2024,
+colore-grigio-medio: #5A6772,
+colore-grigio-chiaro: #F5F5F0,
+colore-ottanio-scuro: #004A4D,    // Bottone Focus
+colore-ottanio-medio: #00C5CA,    // Bottone 
+colore-ottanio-chiaro: #65DDE0,   // Bottone Hover
+colore-cadetto: #6D968B,          // Casa
+colore-giada: #69DC8E,            // Cittadini e vita pubblica
+colore-lime: #D3E372,             // Famiglia
+colore-giallo: #FFE926,           // Giustizia e sicurezza
+colore-bronzo: #E5A147,           // Tasse
+colore-corallo: #FF8958,          // Lavoro e previdenza
+colore-lampone: #D86181,          // Istruzione e formazione
+colore-malva: #A07F94,            // Salute
+colore-lilla: #BD8AE5,            // Viaggiare e vivere all'estero
+colore-blu-notte: #857EC4,        // Trasporti
+colore-ardesia: #5E7F89,          // Fisco
+colore-te-verde: #D0F0C0,         // Previdenza
+colore-ocra: #F5AF08,             // Camere di commercio
+colore-cipria: #D5B3A9,           // Certificati
+colore-testa-di-moro: #967E6A,    // Procedimenti
+);
+
+@function color($key) {
+  @if map-has-key($palette, $key) {
+    @return map-get($palette, $key);
+  }
+  @warn "Colore sconosciuto `#{$key}`.";
+  @return null;
+}
+
+/* ------------------------------
+ * Colori - classi riutilizzabili
+/* ------------------------------*/
+
+@each $name, $color in $palette {
+  .ita-#{$name} {
+    color: $color;
+  }
+  .ita-bg-#{$name} {
+    background-color: $color;
+  }
+}

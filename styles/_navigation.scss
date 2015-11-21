@@ -1,0 +1,397 @@
+/*
+ * Navigation / offcanvas menu
+ * -----------------------------
+ */
+$sidebar-length: 80%;
+
+/* 
+ * Per supportare explorer 8
+ * queste due unità devono essere in px 
+ * perché il body è blacklistato in pxtorem 
+*/
+$nav-banner-height: 54px;
+$navbar-height: 140px;
+$navbar-small-height: 60px;
+
+%will-transform {
+  transition: all .25s ease-out;
+  transform: translate3d(0,0,0);
+}
+
+/*
+ *  Offcanvas layout
+ */
+html,
+body {
+  overflow-x: hidden;
+}
+
+body {
+  padding-top: $navbar-height + $nav-banner-height + 1;
+}
+
+.nav {
+  padding-bottom: 5rem;
+}
+
+.navbar__logo, 
+.footer__logo {
+  @extend %will-transform;
+  width: 7.4rem;
+  height: 7.4rem;
+  float: left;
+  margin-right: 5rem;
+}
+.footer__logo--agid {
+  width:46rem;
+  height:10rem;
+}
+
+/*
+ * Navbar - bootstrap overrides
+ * ----------------------------
+ */
+.navbar-default {
+  .navbar-header {
+    float: none;
+    padding-top:2rem;
+  }
+
+  .navbar-toggle {
+    position: absolute;
+
+    top: 0.5rem;
+    left: 0.5rem;
+
+    color: #fff;
+    border: none;
+    height: 5rem;
+    margin:0;
+
+    > span {
+      float: left;
+      margin-right: 1em;
+      line-height: 80%;
+    }
+
+    &:hover, &:focus {
+      background: transparent;
+    }
+  }
+}
+
+.navbar-fixed-top {
+  top: $nav-banner-height;
+}
+
+.navbar {
+  @extend %will-transform;
+
+  padding-top: 0;
+  height: $navbar-height;
+  background: color(colore-blu-italia);
+  padding-bottom: 1rem;
+
+  @media screen and (max-width: $screen-md) {
+    /* navbar-toggle space */
+    padding-left: 5rem;
+  }
+
+  .navbar-header .row {
+    padding-top: 0.2rem;
+  }
+
+  h1 {
+    @extend %will-transform;
+    color: white;
+    a, small {
+      color: white;
+      text-decoration: none;
+    }
+    small {
+      font-style: italic;
+      font-size: 1.8rem;
+      padding-right: 0.2rem;
+      @media screen and (max-width: $screen-xs) {
+        display: none;
+      }
+      /* @FIXME */
+      @media screen and (min-width: $screen-md + 1) {
+        display: block;
+        @include clearfix;
+      }
+    }
+    font-size: 3.8rem;
+    line-height: 120%;
+    margin-top: 0;
+    margin-bottom: 0;
+
+    /* @FIXME */
+    @media screen and (max-width: 340px) {
+      font-size: 1.3rem;
+      line-height: 2rem;
+      margin-top: 0.4rem;
+    }
+
+    /* @FIXME */
+    @media screen and (min-width: 340px) and (max-width: 500px) {
+      font-size: 1.5rem;
+      line-height: 2rem;    
+    }
+
+    /* @FIXME */
+    @media screen and (min-width: 500px) and (max-width: $screen-md) {
+      font-size: 2.2rem;
+      line-height: 2.4rem;    
+    }
+
+  }
+}
+
+.navbar--small {
+  top: 0;
+
+  /* @FIXME */
+  @media screen and (min-width: $screen-md + 1) {
+    padding-top: 0.3rem;
+    height: $navbar-small-height;
+
+    .nav-banner {
+      display: none;
+    }
+
+    .navbar__logo {
+      /* @FIXME: explorer 8 */
+      width: 45px;
+      height: 45px;
+      /**/
+      width: 4.5rem;
+      height: 4.5rem;
+      margin-right: 2rem;
+    }
+
+    .navbar-header {
+      padding-top: 0;
+    }
+
+    .navbar-brand {
+      padding: 0;
+    }
+
+    h1 {
+      padding-top: 0.5rem;
+      font-size: 2rem;
+      /* @FIXME: ie 8 */
+      font-size: 20px; 
+      padding-top: 5px;
+      /**/
+    }
+
+    .github-corner {
+      display: none;
+    }
+  }
+}
+
+@media screen and (max-width: $screen-xs) {
+  .row > div {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+/*
+ *  Menu a comparsa per schermi più piccoli
+ */
+@media screen and (max-width: $screen-md) {
+
+  .nav-banner {
+    display: none;
+  }
+
+  .navbar {
+    top: 0;
+  }
+
+  .navbar__logo_container  {
+    min-width: 5rem;
+    margin-left: 0.5rem;
+  }
+
+  %sm-will-transform {
+    transition: all .25s ease-out;
+    transform: translate3d(0,0,0);
+  }
+
+  body {
+    padding-top: $navbar-small-height;
+  }
+
+  .navbar__logo,
+  .footer__logo {
+    width: 4rem;
+    height: 4rem;
+    margin-right: 1.5rem;
+  }
+  .footer__logo--agid {
+    width:30rem;
+    height:12rem;
+  }
+
+  .navbar {
+    padding-top: 0.5rem;
+    padding-bottom: 0;
+    height: $navbar-small-height;
+
+    .navbar-header {
+      padding-top: 0;
+      padding-bottom: 0;
+    }
+
+    .navbar-brand {
+      padding: 0;
+    }
+
+    .github-corner {
+      display: none;
+    }
+  }
+
+  .navbar-toggle {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  footer {
+    .h3 {
+      line-height: 110%;
+      font-size: 2rem;
+    }
+  }
+
+  .row-offcanvas .sidebar-offcanvas {
+    @extend %sm-will-transform;
+  }
+
+  .sidebar-offcanvas {
+    position: fixed;
+    background: white;
+    top: $navbar-small-height;
+    z-index: 99999;
+    width: $sidebar-length;
+    overflow: scroll;
+    display: block;
+    height: 100%;
+  }
+
+  .row-offcanvas-right
+  .sidebar-offcanvas {
+    right: -$sidebar-length;
+  }
+
+  .row-offcanvas-left
+  .sidebar-offcanvas {
+    left: -$sidebar-length;
+  }
+
+  .row-offcanvas.active .sidebar-offcanvas {
+    left: 0;
+    border-right: 1px solid color(colore-grigio-medio);
+  }
+
+  .row-offcanvas.active:after {
+    content: " ";
+    position: fixed;
+    top: $navbar-small-height;
+    left: 0;
+    height: 100%;
+    width:100%;
+    opacity: 0.6;
+    background: #000;
+    z-index: 9998;
+  }
+
+}
+
+/*
+ *  Fascia logo governo
+ * ---------------------
+ */
+.nav-banner {
+  @extend %will-transform;
+  img, p {
+    @extend %will-transform;    
+  }
+  position: fixed;
+  z-index: 99999;
+  top:0;
+  left:0;
+  width: 100%;
+  height: $nav-banner-height;
+  background: #013366;
+  padding-top:0.4rem;
+  .h4 {
+    color: white;
+    margin: 0.2rem 0 0 0;
+    line-height: 4rem;
+    font-weight: bold;
+  }
+}
+.nav-banner--small
+{
+  height:0;
+  .container {
+    img, div, p {
+      height: 0;
+      line-height: 0;
+      font-size: 0;
+    }
+    height: 0;
+  }
+}
+.navbar_banner__logo {
+  height: 4.5rem;
+  width: 4.5rem;
+}
+
+
+/*
+ * Hamburger animation
+ * ------------------------------------------------------------
+ * Thanks to http://elijahmanor.com/css-animated-hamburger-icon/
+ */
+#nav-toggle {
+  padding-top: 2.3rem;
+  min-width: 5rem;
+}
+#nav-toggle span, #nav-toggle span:before, #nav-toggle span:after {
+  height: 4px;
+  width: 35px;
+  background: white;
+  position: absolute;
+  display: block;
+  content: ' ';
+}
+#nav-toggle span:before {
+  top: -10px;
+}
+#nav-toggle span:after {
+  bottom: -10px;
+}
+#nav-toggle span, #nav-toggle span:before, #nav-toggle span:after {
+  transition: all 500ms ease-in-out;
+}
+#nav-toggle.active span {
+  background-color: transparent;
+}
+#nav-toggle.active span:before, #nav-toggle.active span:after {
+  top: 0;
+}
+#nav-toggle.active span:before {
+  transform: rotate(45deg);
+}
+#nav-toggle.active span:after {
+  transform: rotate(-45deg);
+}
