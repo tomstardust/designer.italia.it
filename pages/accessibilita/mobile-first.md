@@ -14,7 +14,8 @@ facilità di lettura e navigazione con minime necessità di ridimensionare, spos
 
 L'approccio mobile first consiste nel valutare in prima istanza la resa sui dispositivi mobile, per poi arricchire di elementi e funzionalità la composizione della pagina mano a mano che la viewport aumenta. 
 
-<div class="lg-callout lg-callout-should"><mark>SI DOVREBBE</mark> 
+<div class="lg-callout lg-callout-should">
+<mark>SI DOVREBBE</mark> 
 Si consiglia lo stesso approccio anche nello sviluppo di qualsiasi sito web. Obbligarsi 
 a progettare un’applicazione con ridotte disponibilità di spazio, di interazione, di velocità di caricamento,
  obbliga a stabilire delle priorità e a fare delle scelte che risulteranno utili anche all’usabilità del prodotto 
