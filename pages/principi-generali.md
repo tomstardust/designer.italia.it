@@ -37,7 +37,7 @@ Requisiti obbligatori.
 </div>
 
 <div class="lg-callout lg-callout-should">
-<mark><mark>SI DOVREBBE</mark></mark>
+<mark>SI DOVREBBE</mark>
 Suggerimenti caldamente consigliati.
 </div>
 

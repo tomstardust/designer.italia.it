@@ -36,5 +36,7 @@ Si raccomanda una particolare attenzione alla corretta ortografia della lingua i
 Nel definire le voci del menu, della navigazione e dei comandi si deve usare una terminologia univoca, dove la stessa definizione non conduca, in luoghi diversi, ad azioni differenti. Nei bottoni e nelle etichette descrivere in modo coerente e puntuale quali sono le azioni che ci dobbiamo aspettare nell’eseguire un comando o nel riempire un form. Siate specifici: “Cerca” invece di “Invia”, “Paga” invece di “Ok”.Il significato di “Cancella” è diverso da “Annulla”. Siate espliciti: “Pubblica amministrazione” invece di “PA”.
 
 ### Rendere chiara la gerarchia
-SI DEVE
+<div class="lg-callout lg-callout-must">
+<mark>SI DEVE</mark>
 Per una corretta definizione della struttura gerarchica dei contenuti, la suddivisione in parti deve essere espressa attraverso l’uso dei tag semantici disponibili in Html5, quali ```<article>, <aside>, <figcaption>, <header>, <footer>```, ecc., al posto del generico divisore ```<div>```.
+</div>
