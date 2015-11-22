@@ -1,11 +1,11 @@
-# Linee guida visive siti web della PA
+# Linee guida visive siti web della Pubblica Amministrazione
 
 ## Stato del progetto 
 Attualmente il progetto redazionale delle Linee Guida è nella fase "alfa". I suggerimenti
 e le proposte della community contribuiranno a raggiungere una versione più stabile e di riferimento.
 
 ## Adottare lo stile delle Linee Guida
-Una volta recepiti i contribuiti dagli utenti, i CSS (o [SASS](http://sass-lang.com)) allegati alle linee guida potranno essere utilizzati nella progettazione dei nuovi siti web della pubblica ammnistrazione. 
+Una volta recepiti i contribuiti dagli utenti, i CSS (o [SASS](http://sass-lang.com)) allegati alle linee guida potranno essere utilizzati nella progettazione dei nuovi siti web della pubblica amministrazione. 
 Al momento è prevista l'implementazione come tema del framework CSS [Bootstrap-Sass](http://getbootstrap.com/). 
 
 È possibile scaricare la [versione corrente del css](web/assets/agid-guidelines/dist/css/agid.css) e gli [esempi dei componenti HTML](web/assets/agid-guidelines/dist) illustrati nelle linee guida. Durante la fase alfa tali stili sono soggetti a cambiamenti. Per contribuire fare riferimento alle [istruzioni per l'utilizzo e la compilazione dei sorgenti SASS](web/assets/agid-guidelines/README.md). É inoltre disponibile un [file archivio contenente tutti i sorgenti e l'HTML](web/assets/agid-guidelines-2015-11-20-v.1.zip).
