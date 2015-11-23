@@ -18,11 +18,11 @@ Il web richiede l’uso di uno stile più informale e semplice. La prima regola 
 solo i termini compresi nel Vocabolario di base della lingua italiana (Tullio De Mauro, 
 Guida all’uso delle parole, Paravia, 1980) per garantire la comprensione al più vasto pubblico possibile. 
 Dove è necessario utilizzare una terminologia specifica, o tecnica, vanno predisposti i necessari 
-strumenti di aiuto (tooltip, glossario, ecc.). Sciogliete sempre le abbreviazioni e le sigle.
+strumenti di aiuto (tooltip, glossario, ecc.). Sciegliete sempre le abbreviazioni e le sigle.
 
 ### Link
 
-Si dovrebbero evitare “pop up” o aperture di pagina esterne. Nel caso di inserimento di link esterni questi dovrebbero essere accompagnati da un avviso leggibile anche dagli screen reader (ad esempio "Questo link si aprirà in una nuova finestra"). 
+Si dovrebbero evitare “pop-up” o aperture di pagina esterne. Nel caso di inserimento di link esterni questi dovrebbero essere accompagnati da un avviso leggibile anche dagli screen reader (ad esempio "Questo link si aprirà in una nuova finestra"). 
 
 <div class="lg-callout lg-callout-must">
 <mark>SI DEVE</mark>
