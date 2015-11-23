@@ -10,7 +10,7 @@ Una buona usabilità di un sito web permette di garantire alla più vasta platea
 
 Porre il cittadino reale, con le sue necessità e le sue capacità, al centro della progettazione dei servizi erogati online dalle pubbliche amministrazioni è il primo e necessario passo per l’applicazione dei principi di Human-centered design.
 
-Scopo dell’usabilità è migliorare la qualità dell’esperienza utente attraverso una navigazione chiara, comprensibile, facile, efficiente e gradevole. Un prodotto usabile, sia esso un oggetto o un sito, consente all'utente di raggiungere il proprio obiettivo con efficacia, efficienzae e soddisfazione, in uno specifico contesto d’uso.
+Scopo dell’usabilità è migliorare la qualità dell’esperienza utente attraverso una navigazione chiara, comprensibile, facile, efficiente e gradevole. Un prodotto usabile, sia esso un oggetto o un sito, consente all'utente di raggiungere il proprio obiettivo con efficacia, efficienza e soddisfazione, in uno specifico contesto d’uso.
 
 La definizione di usabilità è costituita dalle seguenti sotto-caratteristiche: 
 *	riconoscibilità: il prodotto è ritenuto adatto per le esigenze dell’utente;
