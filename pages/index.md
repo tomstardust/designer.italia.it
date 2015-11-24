@@ -32,7 +32,7 @@ vorranno partecipare al progetto.
 Attualmente, le linee guida sono state pubblicate, in versione alfa, all'indirizzo
 [design.italia.it](http://design.italia.it). I testi delle linee guida 
 e il codice sorgente del sito, progettato e realizzato dall'[AgID](http://www.agid.gov.it), 
-sono disponibili sulla piattaforma [Github](http://github.com) che contiene una 
+sono disponibili sulla piattaforma [GitHub](http://github.com) che contiene una
 serie di strumenti per favorire i commenti partecipativi e la gestione ottimale dell'evoluzione.
 Designer e programmatori hanno pertanto la possibilità di fornire i loro contributi 
 in termini di commenti, segnalazioni errori e proposte di modifiche al codice.

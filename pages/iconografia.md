@@ -13,8 +13,8 @@ Al fine di garantire una coerenza visiva si consiglia di utilizzare icone proven
 <!-- La dimensione minima di un'icona è di 30dp -->
 <!-- ![](/images/tavola_31.png) -->
 
-Il framework CSS bootstrap incorpora invece le [icone del set glyphicons](http://glyphicons.com/).
-È opportuno utilizzare solo icone e immagini che siano realmente necessari alla comprensione delle informazioni da parte dell'utente. Evitare elementi decorativi non essenziali.
+Il framework CSS Bootstrap incorpora invece le [icone del set glyphicons](http://glyphicons.com/).
+É opportuno utilizzare solo icone e immagini che siano realmente necessari alla comprensione delle informazioni da parte dell'utente. Evitare elementi decorativi non essenziali.
 
 ### Badge
 

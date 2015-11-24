@@ -36,4 +36,4 @@ Tecnicamente il sito web deve rilevare quale dispositivo lo sta navigando. È po
 - la risoluzione dello schermo, ovvero quanti pixel abbiamo a disposizione 
 - che tipo di device, ovvero se stiamo andando in stampa o su schermo 
 
-Tecniche apposite come l’uso di media queries permettono di dare istruzioni ai Css per comportarsi in modo diverso a seconda della risoluzione (breakpoints). Individuato il dispositivo, la risoluzione e il browser utilizzato, il contenuto (il nucleo) viene arricchito o meno da informazioni e funzioni aggiuntive.
+Tecniche apposite come l’uso di media queries permettono di dare istruzioni ai CSS per comportarsi in modo diverso a seconda della risoluzione (breakpoints). Individuato il dispositivo, la risoluzione e il browser utilizzato, il contenuto (il nucleo) viene arricchito o meno da informazioni e funzioni aggiuntive.
