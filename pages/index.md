@@ -56,6 +56,6 @@ definiti in merito alla comunità dei designer e svilupatori e delle Linee guida
 I prossimi passi consisteranno principalmente nelle seguenti attività:
 
 1. individuazione dei community leader per raccogliere moderare gli interventi della comunità
-2. indicare una timeline di adeguamento dei siti web della PA alle nuove linee guida
-3. sensibilizzare e formare le PA sulla corretta redazione dei contenuti
+2. indicare una timeline di adeguamento dei siti web della Pubbliche Amministrazioni alle nuove linee guida
+3. sensibilizzare e formare le Pubbliche Amministrazioni sulla corretta redazione dei contenuti
 4. trovare le modalità procedurali più snelle per formalizzare l'adesione al progetto
