@@ -1,4 +1,4 @@
-# Implementazione CSS/HTML Linee guida di design per i siti web della PA
+# Implementazione CSS/HTML Linee guida di design per i siti web della Pubblica Amministrazione
 
 Implementazione delle linee guida con un CSS Bootstrap-based.
 L'implementazione è basata su [Bootstrap-sass](https://github.com/twbs/bootstrap-sass) v.3.3.5.
