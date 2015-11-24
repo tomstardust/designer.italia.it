@@ -6,7 +6,7 @@ published: true
 
 ### Web font 
 
-Le Web font sono famiglie di caratteri tipografici la cui licenza d’uso permette il download remoto per la loro visualizzazione in pagine web. Introdotte dalla versione Css2 con la dichiarazione `@font-face`, le Web font sono oggi pienamente compatibili con la maggioranza dei browser (IE4+, Firefox 3.5+, Safari 3.1+, Opera 10+, Chrome 4.0+) e costituiscono la soluzione più efficace per una coerente composizione tipografica. Google Fonts è una piattaforma di distribuzione gratuita di Web font.
+Le Web font sono famiglie di caratteri tipografici la cui licenza d’uso permette il download remoto per la loro visualizzazione in pagine web. Introdotte dalla versione CSS2 con la dichiarazione `@font-face`, le Web font sono oggi pienamente compatibili con la maggioranza dei browser (IE4+, Firefox 3.5+, Safari 3.1+, Opera 10+, Chrome 4.0+) e costituiscono la soluzione più efficace per una coerente composizione tipografica. Google Fonts è una piattaforma di distribuzione gratuita di Web font.
 
 ### Titillium Web 
 Il carattere tipografico istituzionale è la famiglia di font [Titillium Web](https://www.google.com/fonts/specimen/Titillium+Web), realizzato come progetto didattico all’interno all’Accademia di Belle Arti di Urbino e distribuito con licenza Open Font da Google Fonts. La famiglia di caratteri Titillium Web è composta da numerose font di diversi pesi tipografici (dall’Extra-Light all’Ultra-Bold) garantendo così un’estrema flessibilità di utilizzo nelle composizioni dei testi. 
