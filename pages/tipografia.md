@@ -66,24 +66,24 @@ Il carattere tipografico istituzionale è la famiglia di font [Titillium Web](ht
 <mark>SI PUÒ</mark> Per la realizzazione dei siti è consigliato l’utilizzo del carattere Titillium Web, ma qualunque altra Web font che garantisca la leggibilità e un’analoga ampiezza di pesi tipografici può essere usata.
 </div>
 
-Dimensioni e interlinea del testo 
+### Dimensioni e interlinea del testo 
 
 <div class="lg-callout lg-callout-must">
 <mark>SI DEVE</mark> Un paragrafo di testo non deve essere mai essere composto in una dimensione inferiore a 12 sp. La dimensione standard del paragrafo di testo è prevista in 18 sp, con interlinea 24 sp e una spaziatura di 5 em. Un paragrafo di testo deve essere composto sempre nel peso Regular, mai in Light o Bold. L’interlinea avrà generalmente una dimensione pari a circa il 150% della dimensione del corpo del carattere (per esempio un testo in corpo 18 sp avrà un’interlinea di 28 sp).
 </div>
 
-#### Allineamento 
+### Allineamento 
 <div class="lg-callout lg-callout-should">
 <mark>SI DOVREBBE</mark> Un paragrafo di testo deve essere preferibilmente composto con allineamento a sinistra. Sono generalmente sconsigliati gli allineamenti centrati (a epigrafe) e a destra. L’allineamento giustificato e senza sillabazione è invece sempre da evitare per l’incongrua spaziatura delle parole e la minore leggibilità che comporta.
 </div>
 
-#### Giustezza 
+### Giustezza 
 
 <div class="lg-callout lg-callout-must">
   <mark>SI DEVE</mark> Ogni riga di testo non deve mai superare la lunghezza massima di 75 caratteri.
 </div>
 
-#### Markup semantico 
+### Markup semantico 
 
 <div class="lg-callout lg-callout-should">
 <mark>SI DOVREBBE</mark> L’uso dei tag semantici consente di venire incontro ai requisiti di accessibilità, permettendo la corretta interpretazione del testo da parte dei device di ausilio alla lettura.
