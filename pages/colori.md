@@ -22,7 +22,7 @@ Qualunque scala cromatica può essere scelta per lo sviluppo del sito con la sol
 
 <!-- ![html](/images/blu.png) -->
 
-### Palette estesa delle Pubbliche Amministrazionicentrali
+### Palette estesa delle Pubbliche Amministrazioni centrali
 All’interno dei siti delle Pubbliche Amministrazioni centrali sono utilizzate le seguenti undici gradazioni del colore principale Blu sulla modalità di creazione delle gradazioni vedi oltre al punto 5.8.5).
 
 <ul class="palette-example">
