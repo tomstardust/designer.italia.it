@@ -8,7 +8,7 @@ published: true
 
 Qualunque scala cromatica può essere scelta per lo sviluppo del sito con la sola esclusione dei colori istituzionali delle pubbliche amministrazioni centrali  (blu #0066CC). La scala cromatica deve comunque garantire il rapporto di contrasto minimo tra testo e sfondo di 4,5:1, come raccomandato dalle specifiche di accessibilità WCAG 2.0 AA. Il colore non deve mai essere significante in sé e non deve essere la modalità con cui si trasmettono contenuti: ipovedenti, daltonici e non vedenti non sarebbero in grado di identificarli correttamente. 5.8.1. 
 
-### Palette principale per i siti delle PA centrali
+### Palette principale per i siti delle Pubbliche Amministrazioni centrali
 <div class="lg-callout lg-callout-must">
 <mark>SI DEVE</mark> Il colore istituzionale è il blu #0066CC.
 </div>
@@ -22,8 +22,8 @@ Qualunque scala cromatica può essere scelta per lo sviluppo del sito con la sol
 
 <!-- ![html](/images/blu.png) -->
 
-### Palette estesa delle PA centrali
-All’interno dei siti delle PA centrali sono utilizzate le seguenti undici gradazioni del colore principale Blu sulla modalità di creazione delle gradazioni vedi oltre al punto 5.8.5).
+### Palette estesa delle Pubbliche Amministrazioni centrali
+All’interno dei siti delle Pubbliche Amministrazioni centrali sono utilizzate le seguenti undici gradazioni del colore principale Blu sulla modalità di creazione delle gradazioni vedi oltre al punto 5.8.5).
 
 <ul class="palette-example">
   <li class="ita-colore-blu-italia-05">
