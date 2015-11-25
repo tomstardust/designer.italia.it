@@ -34,7 +34,10 @@ Attualmente, le linee guida sono state pubblicate, in versione alfa, all'indiriz
 e il codice sorgente del sito, progettato e realizzato dall'[AgID](http://www.agid.gov.it), 
 sono disponibili sulla piattaforma [GitHub](http://github.com) che contiene una
 serie di strumenti per favorire i commenti partecipativi e la gestione ottimale dell'evoluzione.
-Designer e programmatori hanno pertanto la possibilità di fornire i loro contributi 
+
+#### [Repository GitHub delle linee guida](https://github.com/italia-it/designer.italia.it)
+
+Designer e programmatori hanno la possibilità di fornire i loro contributi 
 in termini di commenti, segnalazioni errori e proposte di modifiche al codice.
 I risultati di tale collaborazione saranno monitorabili su
 [designer.italia.it](http://designer.italia.it), un sito parallelo
