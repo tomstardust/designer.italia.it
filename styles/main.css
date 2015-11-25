@@ -1571,21 +1571,21 @@ mark,
 
 a.text-primary:hover,
 a.text-primary:focus {
-  color: #004c99; }
+  color: #004d99; }
 
 .text-success {
   color: #006366; }
 
 a.text-success:hover,
 a.text-success:focus {
-  color: #003133; }
+  color: #003233; }
 
 .text-info {
   color: #006366; }
 
 a.text-info:hover,
 a.text-info:focus {
-  color: #003133; }
+  color: #003233; }
 
 .text-warning {
   color: #685815; }
@@ -1609,7 +1609,7 @@ a.text-danger:focus {
 
 a.bg-primary:hover,
 a.bg-primary:focus {
-  background-color: #004c99; }
+  background-color: #004d99; }
 
 .bg-success {
   background-color: #c6f3f5; }
@@ -1630,7 +1630,7 @@ a.bg-info:focus {
 
 a.bg-warning:hover,
 a.bg-warning:focus {
-  background-color: #ffe66c; }
+  background-color: #ffe76c; }
 
 .bg-danger {
   background-color: #ffcbcb; }
@@ -2487,7 +2487,7 @@ table th[class*="col-"] {
 .table-hover > tbody > tr.warning:hover > td,
 .table-hover > tbody > tr:hover > .warning,
 .table-hover > tbody > tr.warning:hover > th {
-  background-color: #ffeb85; }
+  background-color: #ffeb86; }
 
 .table > thead > tr > td.danger, article table > thead > tr > td.danger,
 .table > thead > tr > th.danger, article table > thead > tr > th.danger,
@@ -2934,7 +2934,7 @@ select[multiple].input-lg,
   -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075); }
   .has-success .form-control:focus {
-    border-color: #003133;
+    border-color: #003233;
     -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #00c6cc;
     box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #00c6cc; }
 
@@ -3302,19 +3302,19 @@ fieldset[disabled] a.btn {
 .btn-warning {
   color: #685815;
   background-color: #ffef9f;
-  border-color: #ffeb85; }
+  border-color: #ffeb86; }
   .btn-warning:focus, .btn-warning.focus {
     color: #685815;
-    background-color: #ffe66c;
+    background-color: #ffe76c;
     border-color: #ffd606; }
   .btn-warning:hover {
     color: #685815;
-    background-color: #ffe66c;
+    background-color: #ffe76c;
     border-color: #ffe148; }
   .btn-warning:active, .btn-warning.active,
   .open > .btn-warning.dropdown-toggle {
     color: #685815;
-    background-color: #ffe66c;
+    background-color: #ffe76c;
     border-color: #ffe148; }
     .btn-warning:active:hover, .btn-warning:active:focus, .btn-warning:active.focus, .btn-warning.active:hover, .btn-warning.active:focus, .btn-warning.active.focus,
     .open > .btn-warning.dropdown-toggle:hover,
@@ -3334,7 +3334,7 @@ fieldset[disabled] a.btn {
   fieldset[disabled] .btn-warning:active,
   fieldset[disabled] .btn-warning.active {
     background-color: #ffef9f;
-    border-color: #ffeb85; }
+    border-color: #ffeb86; }
   .btn-warning .badge {
     color: #ffef9f;
     background-color: #685815; }
@@ -4547,7 +4547,7 @@ a.label:hover, a.label:focus {
 .label-primary {
   background-color: #0066CC; }
   .label-primary[href]:hover, .label-primary[href]:focus {
-    background-color: #004c99; }
+    background-color: #004d99; }
 
 .label-success {
   background-color: #5cb85c; }
@@ -4562,7 +4562,7 @@ a.label:hover, a.label:focus {
 .label-warning {
   background-color: #ffef9f; }
   .label-warning[href]:hover, .label-warning[href]:focus {
-    background-color: #ffe66c; }
+    background-color: #ffe76c; }
 
 .label-danger {
   background-color: #ffcbcb; }
@@ -4700,7 +4700,7 @@ a.thumbnail.active {
   .alert-success hr {
     border-top-color: #00acb1; }
   .alert-success .alert-link {
-    color: #003133; }
+    color: #003233; }
 
 .alert-info {
   background-color: #c6f3f5;
@@ -4709,7 +4709,7 @@ a.thumbnail.active {
   .alert-info hr {
     border-top-color: #00acb1; }
   .alert-info .alert-link {
-    color: #003133; }
+    color: #003233; }
 
 .alert-warning, .lg-versione-alpha {
   background-color: #ffef9f;
@@ -4973,7 +4973,7 @@ button.list-group-item-warning {
   button.list-group-item-warning:hover,
   button.list-group-item-warning:focus {
     color: #685815;
-    background-color: #ffeb85; }
+    background-color: #ffeb86; }
   a.list-group-item-warning.active, a.list-group-item-warning.active:hover, a.list-group-item-warning.active:focus,
   button.list-group-item-warning.active,
   button.list-group-item-warning.active:hover,
