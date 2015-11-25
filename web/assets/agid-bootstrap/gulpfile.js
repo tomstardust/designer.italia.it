@@ -3,6 +3,8 @@
 var gulp = require('gulp');
 var sass = require('gulp-sass');
 var mainBowerFiles = require('main-bower-files');
+var minifyCss = require('gulp-minify-css');
+var sourcemaps = require('gulp-sourcemaps');
 
 // Bower assets
 gulp.task('bower', function moveBowerDeps() {
@@ -37,13 +39,19 @@ gulp.task('html', function() {
     .pipe(gulp.dest('dist'));
 });
 
+gulp.task('cssimg', ['bootstrap:customize'], function() {
+  return   gulp.src('sass/img/*')
+    .pipe(gulp.dest('dist/css/img'));
+});
+
 gulp.task('sass', ['bootstrap:customize'], function() {
   return gulp.src('build/lib/bootstrap-sass/assets/stylesheets/agid.scss')
 	.pipe(sass.sync({precision:8}).on('error', sass.logError))
+	.pipe(minifyCss({compatibility: 'ie8'}))
     .pipe(gulp.dest('dist/css'));
 });
 
-gulp.task('dist', ['bootstrap:font','bootstrap:js','jquery','html','sass'], function() {
+gulp.task('dist', ['bootstrap:font','bootstrap:js','jquery','html','sass', 'cssimg'], function() {
 });
 
 gulp.task('default', ['dist'], function() {

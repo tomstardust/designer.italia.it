@@ -34,7 +34,6 @@ $grigio-90:							#13171a;
 $grigio-95:							#000000;
 
 
-
 $light-blue: 						#c6f3f5;
 
 
@@ -113,6 +112,8 @@ $icon-search-dim:					48px;
 
 .grigio-95-color{ color:$grigio-95 }
 .grigio-95-bg{ background-color:$grigio-95 }
+
+
 
 .white-color{ color: #fff;}
 .white-bg{background-color:#fff;}
@@ -274,3 +275,46 @@ a.tag, .tag a, a .tag,
 a.filtro, .filtro a, a .filtro{color: inherit;cursor: pointer;}
 
 .no-border-radius{@include border-bottom-radius(0); @include border-top-radius(0);}
+
+.cst-radio-group{ border: 1px solid $grigio-10; background: #fff;
+	.radio, .checkbox{ padding: 0; margin: 0;
+		input[type="radio"], input[type="checkbox"]{display: none;}
+		input[type="radio"], input[type="checkbox"]{position: absolute; top:$grid-gutter-width; right: 0; margin-right: $grid-gutter-width; margin-left: 0;}
+		label{padding: $grid-gutter-width 20px $grid-gutter-width $grid-gutter-width; display: block; color: $grigio-50; border-bottom: 1px solid $grigio-10;}
+		input[type=radio]:checked + label, input[type="checkbox"]:checked + label{
+		    background: $light-blue;color: $grigio-70;
+		}
+		label:after{
+			content: url(img/radio.png);position: absolute; top:22px; right: 0; margin-right: $grid-gutter-width;
+		}
+		input[type=radio]:checked + label:after, input[type="checkbox"]:checked + label:after{
+			content: url(img/radio-checked.png);
+		}
+	}
+
+		
+}
+
+.cst-dropdown{ background: #fff;
+	.heading{ padding:$grid-gutter-width $grid-gutter-width $grid-gutter-width $grid-gutter-width*2; border-bottom: 1px solid $grigio-10; }
+	.heading a{font-size: $font-size-h5; color: $btn-default-bg; }
+	.heading a:hover, .heading a:focus{ text-decoration: none;}
+	.heading a:after {
+        font-family: "FontAwesome";
+	    font-size: inherit;
+	    text-rendering: auto;
+	    -webkit-font-smoothing: antialiased;
+        content:"\f106";
+		float: right;
+		color: $btn-default-bg;
+	}
+	.heading a.collapsed:after {
+	    content: "\f107";
+	}
+}
+
+
+
+
+
+

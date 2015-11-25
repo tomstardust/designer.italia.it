@@ -140,7 +140,7 @@ gulp.task('build:dev', ['scripts', 'fonts', 'styles',
 gulp.task('build:prod', ['scripts', 'fonts', 'styles',
   'templates:prod', 'webroot', 'images']);
 
-gulp.task('serve', ['clean', 'build:dev'], function () {
+gulp.task('serve', ['clean', 'build:dev', 'archive'], function () {
   browserSync(Object.assign({}, {
     notify: false,
     logPrefix: 'BrowserSync',
@@ -165,7 +165,16 @@ gulp.task('default', ['serve']);
 //    }));
 //});
 
-gulp.task('deploy', ['clean', 'build:prod'], function () {
+/*
+ * @FIXME: linkare allo zip del repository una volta creata
+ */
+gulp.task('archive', function () {
+  return gulp.src('web/assets/agid-bootstrap/**', {base: './web/assets'})
+    .pipe($.zip('agid-bootstrap.zip'))
+    .pipe(gulp.dest('dist/assets'));
+});
+
+gulp.task('deploy', ['clean', 'build:prod', 'archive'], function () {
   return gulp.src(['./dist/**/*', '!./dist/bower_components{,/**}', '!./dist/template{,/**}'])
     .pipe($.ghPages());
 });
