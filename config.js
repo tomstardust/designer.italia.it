@@ -7,7 +7,7 @@ var config = {
   },
   "site": {
     "downloads": {
-      "agid-bootstrap": "assets/agid-guidelines-2015-11-20-v.1.zip"
+      "agid-bootstrap": "assets/agid-bootstrap.zip"
     },
     "brand": process.env['LG_BRAND'] || "design.italia.it",
     "name": "Linee guida di design per i siti web della PA",
