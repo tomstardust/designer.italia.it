@@ -181,5 +181,6 @@ gulp.task('archive', function () {
 
 gulp.task('deploy', ['clean', 'build:prod', 'archive'], function () {
   return gulp.src(['./dist/**/*', '!./dist/bower_components{,/**}', '!./dist/template{,/**}'])
+    .pipe($.file('CNAME', config.deploy.cname))
     .pipe($.ghPages());
 });
