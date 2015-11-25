@@ -19,7 +19,7 @@ Per inviare i commenti è necessario avere un account su [GitHub](https://github
 - [Accedere al repository del progetto delle linee guida](https://github.com/italia-it/designer.italia.it).
 - [Inviare commenti/richieste o segnalare errori](https://github.com/italia-it/designer.italia.it/issues)
 - Per proporre una modifica direttamente al codice e/o ai testi
-  1. [effettuare una copia della repository (fork)](https://help.github.com/articles/fork-a-repo/)
+  1. [effettuare una copia del repository (fork)](https://help.github.com/articles/fork-a-repo/)
   2. [sottoporre la modifica effettuata (pull request)](https://help.github.com/articles/using-pull-requests/).
 
 Le richieste saranno esaminate dai *maintainer* del progetto che provvederanno a incorporare le proposte più valide.
@@ -28,7 +28,7 @@ Le richieste saranno esaminate dai *maintainer* del progetto che provvederanno a
 È possibile visualizzare il sito delle linee guida su un webserver installato localmente.
 Per farlo è necessario
 - installare [Node.js](https://nodejs.org/)
-- clonare la [repository Git](https://github.com/italia-it/designer.italia.it.git)
+- clonare il [repository Git](https://github.com/italia-it/designer.italia.it.git)
 - installare i moduli richiesti
 
 ```
