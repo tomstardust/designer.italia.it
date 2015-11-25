@@ -169,7 +169,12 @@ gulp.task('default', ['serve']);
  * @FIXME: linkare allo zip del repository una volta creata
  */
 gulp.task('archive', function () {
-  return gulp.src('web/assets/agid-bootstrap/**', {base: './web/assets'})
+  return gulp.src(['web/assets/agid-bootstrap/**',
+    '!**/build{,/**}',
+    '!**/bower_components{,/**}',
+    '!**/node_modules{,/**}'],
+    {base: './web/assets'}
+  )
     .pipe($.zip('agid-bootstrap.zip'))
     .pipe(gulp.dest('dist/assets'));
 });
