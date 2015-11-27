@@ -17,6 +17,8 @@ p .badge {
 }
 
 .badge-container {
+  position: relative;
+  display: inline-block;
   margin-right: $badge-size;
   
   .glyphicon, &.glyphicon {
