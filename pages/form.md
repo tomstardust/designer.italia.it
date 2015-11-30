@@ -27,8 +27,8 @@ consentito inoltre lo spostamento da un campo all’altro tramite il tasto Tab.
 
   <div class="row">
     <div class="form-group col-md-6">
-      <label for="cognome">Indirizzo</label>
-      <input type="email" class="form-control" id="cognome">
+      <label for="indirizzo">Indirizzo</label>
+      <input type="email" class="form-control" id="indirizzo">
     </div>
     <div class="form-group col-md-6">
       <label for="citta">Città</label>
