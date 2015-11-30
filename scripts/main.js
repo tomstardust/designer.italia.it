@@ -53,7 +53,7 @@
     };
 
     var rgb2hex = function (rgb) {
-      if (/^#[0-9A-F]{6}$/i.test(rgb)) {
+      if (/^#/.test(rgb)) {
         return rgb;
       }
       rgb = rgb.match(/^rgb\((\d+),\s*(\d+),\s*(\d+)\)$/);
