@@ -14,7 +14,7 @@ Al fine di garantire una coerenza visiva si consiglia di utilizzare icone proven
 <!-- ![](/images/tavola_31.png) -->
 
 Il framework CSS Bootstrap incorpora invece le [icone del set glyphicons](http://glyphicons.com/).
-É opportuno utilizzare solo icone e immagini che siano realmente necessari alla comprensione delle informazioni da parte dell'utente. Evitare elementi decorativi non essenziali.
+È opportuno utilizzare solo icone e immagini che siano realmente necessari alla comprensione delle informazioni da parte dell'utente. Evitare elementi decorativi non essenziali.
 
 ### Badge
 
