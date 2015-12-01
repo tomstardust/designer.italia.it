@@ -88,8 +88,10 @@ article table {
   padding-bottom: 4rem;
   background: #66a5e3;
   min-height: 10rem;
-  p {
+  p, h3 {
     margin: auto;
+    font-size: 2rem;
+    font-weight: normal;
     i {
       font-size: 1.5rem;
     }
