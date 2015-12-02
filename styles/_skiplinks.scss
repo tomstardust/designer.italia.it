@@ -1,0 +1,13 @@
+.skiplink li
+{
+  list-style-type: none;
+}
+.skiplink--focused {
+  position: fixed;
+  top: 0;
+  z-index: 999999; 
+  background: white;
+  text-align:center;
+  width: 100%;
+}
+
