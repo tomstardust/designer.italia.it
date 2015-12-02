@@ -9,6 +9,10 @@ $article-max-block-swidth: 60rem;
   min-height: 50rem;
 }
 
+[tabindex="0"]:focus {
+  outline: none;
+}
+
 .container {
   min-width: 200px;
 }
