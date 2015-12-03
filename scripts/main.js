@@ -10,7 +10,7 @@
    *  per mostrare / nascondere il codice 
    */
   $('pre').each(function doExample() {
-    doExample.count = doExample.count ? doExample.count + 1: 1;
+    doExample.count = doExample.count ? doExample.count + 1 : 1;
     var id = 'code-collapse-' + doExample.count,
       showLinkTextOpen = 'Mostra il codice',
       showLinkTextClose = 'Nascondi il codice',
@@ -37,6 +37,39 @@
     });
   });
 
+  $(document).keyup(function (e) {
+    // Bind key esc
+    if (e.which === 27) {
+      $('[data-toggle="offcanvas"]').click().focus();
+    }
+  });
+
+  /* Navgoco Change Tabindex on Toggle Menu */
+
+//  $('.toggle-menu').click(function () {
+//    if ($('.navgoco a').attr('tabindex', '-1')) {
+//      $('.navgoco a').attr('tabindex', '2000');
+//    }
+//  });
+
+  /* Skiplink */
+
+  jQuery(document).ready(function ($) {
+    $('.skiplink a').on({
+      'focus': function () {
+        $('.skiplink')
+          .removeClass('sr-only')
+          .addClass('skiplink--focused');
+      },
+      'blur': function () {
+        $('.skiplink')
+          .addClass('sr-only')
+          .removeClass('skiplink--focused');
+      }
+    });
+  });
+
+  /* End Skiplink */
   /* Code highlight */
 
 //  $(document).ready(function () {
@@ -53,7 +86,7 @@
     };
 
     var rgb2hex = function (rgb) {
-      if (/^#[0-9A-F]{6}$/i.test(rgb)) {
+      if (/^#/.test(rgb)) {
         return rgb;
       }
       rgb = rgb.match(/^rgb\((\d+),\s*(\d+),\s*(\d+)\)$/);
@@ -185,6 +218,18 @@
         easing: 'swing'
       }
     });
+
+    $('.navgoco li > a > span')
+      .keyup(function (e) {
+        if (e.which === 13 || e.which === 32) {
+          $(this).click();
+        }
+      })
+      .attr('title', function () {
+        return 'Espandi il menu' + $(this).closest('a').text();
+      })
+      .attr('tabindex', '0');
+
     /*
      *  @FIXME: ugly hack against navgoco default behaviour.
      *  -----------------------------------------------------

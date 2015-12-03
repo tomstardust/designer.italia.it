@@ -38,7 +38,7 @@ blockquote, blockquote p {
  */
 $small-header-delta: 0.6;
 
-h1 {
+h1, .h1 {
   line-height: $line-height-h1;
   font-weight: bold;
   @media screen and (max-width: $screen-sm) {
@@ -46,7 +46,7 @@ h1 {
     line-height: ceil($line-height-h1 * $small-header-delta);    
   }
 }
-h2 {
+h2, .h2 {
   line-height: $line-height-h2;
   font-weight: bold;
   @media screen and (max-width: $screen-sm) {
@@ -54,19 +54,19 @@ h2 {
     line-height: ceil($line-height-h2 * $small-header-delta);    
   }
 }
-h3 {
+h3, .h3 {
   line-height: $line-height-h3;
   font-weight: bold;
 }
-h4 {
+h4, .h4 {
   line-height: $line-height-h4;
   font-weight: bold;
 }
-h5 {
+h5, .h5 {
   line-height: $line-height-h5;
   font-variant: small-caps;
 }
-h6 {
+h6, .h6 {
   font-weight: bold;
   line-height: $line-height-h6;
 }

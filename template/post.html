@@ -1,7 +1,7 @@
 {% include data.templateDir + "/partials/header.html" %}
 {% include data.templateDir + "/partials/menu.html" %}
 
-<main id="main" class="row row-offcanvas row-offcanvas-left">
+<div class="row row-offcanvas row-offcanvas-left">
 
   <!--  <a class="lg-github-link btn btn-default" 
      href="{{data.config.git.repository}}">vai su github</a>-->
@@ -10,11 +10,11 @@
     {% include data.templateDir + "/partials/navigation.html" %}
   </div><!--/.sidebar-offcanvas-->
 
-  <article class="col-sm-12 col-md-8" id="contenuto-principale">
+  <article class="col-sm-12 col-md-8" id="main" tabindex="0">
     <h2>{{ data.title | safe }}</h2>
     {{ contents | safe }}
   </article>
 
-</main>
+</div>
 
 {% include data.templateDir + "/partials/footer.html" %}

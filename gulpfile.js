@@ -62,7 +62,8 @@ gulp.task('minify', ['scripts', 'styles'], function () {
   return gulp.src('template/**/*.html')
     .pipe(assets)
     .pipe($.if('*.js', $.uglify({preserveComments: 'some'})))
-    .pipe($.if('*.css', $.minifyCss()))
+    // @FIXME IE8
+    .pipe($.if('*.css', $.minifyCss({compatibility: 'ie8'})))
     .pipe($.rev())
     .pipe(gulp.dest('dist'))
     .pipe(assets.restore())

@@ -5,8 +5,15 @@
 $article-max-text-width: 55rem;
 $article-max-block-swidth: 60rem;
 
-main {
+#main {
   min-height: 50rem;
+}
+
+[tabindex="0"]:focus {
+  outline: none;
+}
+.navgoco [tabindex="0"]:focus {
+  outline: #ff8c00 solid 3px !important;
 }
 
 .container {
@@ -88,8 +95,10 @@ article table {
   padding-bottom: 4rem;
   background: #66a5e3;
   min-height: 10rem;
-  p {
+  p, h3 {
     margin: auto;
+    font-size: 2rem;
+    font-weight: normal;
     i {
       font-size: 1.5rem;
     }

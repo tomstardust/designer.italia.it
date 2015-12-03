@@ -1,8 +1,9 @@
-<nav class="navbar navbar-default navbar-fixed-top hidden-print" id="navbar">
+<header class="navbar navbar-default navbar-fixed-top hidden-print" id="navbar">
 
   <!-- START * https://github.com/tholman/github-corners * -->
-  <a href="{{ data.config.git.repository }}" class="github-corner" 
+  <a href="{{ data.config.git.repository }}" class="github-corner" tabindex="-1"
      title="Vai al repository github delle linee guida">
+    <span class="sr-only">Vai al repository GitHub delle Linee Guida</span>
     <svg width="140" height="140" viewBox="0 0 250 250" 
          style="fill:#70B7FD; color:#fff; position: absolute; top: 0; border: 0; right: 0;">
     <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path>
@@ -15,7 +16,7 @@
   <div class="navbar-header container">
 
     <div class="row">
-      <a id="nav-toggle" href="#" class="navbar-toggle"
+      <a id="nav-toggle" href="#" class="navbar-toggle" aria-label="apri e chiudi menu" title="navigazione"
          data-toggle="offcanvas" data-target="#navbar" aria-controls="navbar">
         <span></span>
       </a>
@@ -26,7 +27,7 @@
       </div>
       <div class="col-xs-8 col-xs-offset-0 col-sm-5 col-sm-offset-0 col-md-5 col-md-offset-0 navbar__title_container">
         <h1>
-          <a href="{{ data.config.site.baseurl }}">
+          <a accesskey="1" href="{{ data.config.site.baseurl }}" tabindex="-1">
             <span>{{ data.config.site.name }}
             </span>
             <small>{{ data.config.site.version }}</small>
@@ -36,4 +37,4 @@
     </div><!-- row -->
 
   </div><!-- navbar header container -->
-</nav>
+</header>

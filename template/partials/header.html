@@ -19,7 +19,14 @@
     <meta name="description" content="{{ data.config.site.description }}">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="apple-touch-icon" href="apple-touch-icon.png">
-
+    <!--  
+        Titillium web font 
+       *********************
+       Esclusivamente per il sito delle linee guida vengono importati tutti gli stili del web font;
+       si consiglia di rivedere il seguente link limitando le famiglie del font utilizzate nel sito.
+     -->
+    <link href='//fonts.googleapis.com/css?family=Titillium+Web:400,200,200italic,300italic,300,400italic,600,600italic,700,700italic,900' rel='stylesheet' type='text/css' />
+    
     <!-- build:css styles/combined.css -->
     <link rel="stylesheet" href="../bower_components/prism/themes/prism.css" />
     <link rel="stylesheet" href="../bower_components/jquery.cookiebar/dist/jquery.cookiebar.min.css" />
@@ -42,16 +49,12 @@
     <![endif]-->
 
     <div class="skiplink sr-only">
-      <div class="container-smaller">
-        <div class="row">
-          <div class="col-md-12 text-center">
-            <ul>
-              <li><a href="#main" tabindex="800">Vai al Contenuto</a></li>
-              <li><a href="#footer" tabindex="800">Raggiungi il Footer</a></li>
-            </ul>
-          </div>
-        </div>
-      </div>
+      <ul>
+        <li><a accesskey="2" href="#main" tabindex="800">Vai al Contenuto</a></li>
+        <li><a accesskey="3" href="#menu" tabindex="800">Vai alla navigazione del sito (sommario delle linee guida)</a></li>
+        <li><a href="{{ data.config.git.repository }}" tabindex="800">Vai al repository GitHub delle Linee Guida</a></li>
+<!--        <li><a href="#footer" tabindex="800">Vai al Footer</a></li>-->
+      </ul>
     </div>
 
     <div class="nav-banner">
