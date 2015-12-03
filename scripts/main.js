@@ -218,6 +218,18 @@
         easing: 'swing'
       }
     });
+
+    $('.navgoco li > a > span')
+      .keyup(function (e) {
+        if (e.which === 13 || e.which === 32) {
+          $(this).click();
+        }
+      })
+      .attr('title', function () {
+        return 'Espandi il menu' + $(this).closest('a').text();
+      })
+      .attr('tabindex', '0');
+
     /*
      *  @FIXME: ugly hack against navgoco default behaviour.
      *  -----------------------------------------------------
