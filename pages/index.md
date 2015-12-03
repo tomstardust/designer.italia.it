@@ -54,7 +54,7 @@ professionisti e delle seguenti associazioni:
 - [ADI, Associazione per il Disegno Industriale](http://www.adi-design.org)
 
 Le associazioni, tramite i loro presidenti, hanno espresso il loro interesse alla partecipazione degli obiettivi sopra
-definiti in merito alla comunità dei designer e svilupatori e delle Linee guida.
+definiti in merito alla comunità dei designer e sviluppatori e delle Linee guida.
 
 I prossimi passi consisteranno principalmente nelle seguenti attività:
 
