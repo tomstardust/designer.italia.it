@@ -61,25 +61,29 @@ article table {
   position: relative;
 }
 
-#main a{
-  text-decoration:underline;
-
-  &:focus{
-     background: color(colore-blu-italia-50) !important;
-    color: #fff !important;
-  }
-}
-
-#footer a:focus{ outline: #ff8c00 solid 3px !important;
-    background: none !important;
-    color: inherit !important;}
-
-#main a.btn{text-decoration:none}
-
 /*
  *  Stili custom del sito delle Linee Guida
  *  ---------------------------------------
  */
+#main a {
+  text-decoration: underline;
+
+  &:focus {
+    background: color(colore-blu-italia-50) !important;
+    color: #fff !important;
+  }
+}
+
+#footer a:focus { 
+  outline: #ff8c00 solid 3px !important;
+  background: none !important;
+  color: inherit !important;
+}
+
+#main a.btn {
+  text-decoration: none;
+}
+
 .lg-modal {
   margin: auto;
   background: white;
