@@ -51,7 +51,8 @@ oggi in Italia, con il coordinamento di AgID. Per questo ha richiesto la collabo
 professionisti e delle seguenti associazioni:
 
 - [AIAP, Associazione Italiana Design della Comunicazione Visiva](http://www.aiap.it)
-- [ADI, Associazione per il Disegno Industriale](http://www.adi-design.org)
+- [SIE, Società Italiana Ergonomia e Fattori Umani](http://www.societadiergonomia.it)
+- [ACM SIGCHI Italy, Special Interest Group Computer-Human Interaction](http://sigchi-italy.org/it/informazioni-generali)
 
 Le associazioni, tramite i loro presidenti, hanno espresso il loro interesse alla partecipazione degli obiettivi sopra
 definiti in merito alla comunità dei designer e sviluppatori e delle Linee guida.
