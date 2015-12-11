@@ -92,7 +92,7 @@ consentito inoltre lo spostamento da un campo all’altro tramite il tasto Tab.
 
 - Testo  #1e1212
 - Sfondo #ffcbcb
-- Bordo #ff0000
+- Bordo #b50000
 
 ```markup
 <div class="alert alert-danger" role="alert">
