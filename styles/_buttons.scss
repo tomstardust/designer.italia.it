@@ -5,9 +5,23 @@
   font-weight: bold;
 }
 
-a.btn:visited {
-  /*@FIXME*/
-  color: #fff;
+a.btn-default:visited {
+  color: $btn-default-color;
+}
+a.btn-primary:visited {
+  color: $btn-primary-color;
+}
+a.btn-danger:visited {
+  color: $btn-danger-color;
+}
+a.btn-success:visited {
+  color: $btn-success-color;
+}
+a.btn-info:visited {
+  color: $btn-info-color;
+}
+a.btn-warning:visited {
+  color: $btn-warning-color;
 }
 
 .btn-default, .btn-primary {
