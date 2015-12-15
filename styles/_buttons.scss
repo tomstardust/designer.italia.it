@@ -5,6 +5,11 @@
   font-weight: bold;
 }
 
+a.btn:visited {
+  /*@FIXME*/
+  color: #fff;
+}
+
 .btn-default, .btn-primary {
   &:active:active, &.active {
     color: color(colore-ottanio-chiaro);
