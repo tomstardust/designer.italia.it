@@ -5,8 +5,6 @@ published: true
 ---
 <dfn class="lg-versione-alpha" title="Versione in sviluppo da non considerarsi definitiva">versione alfa</dfn>
 
-### Premessa
-
 Il progetto **Italia Login** persegue la realizzazione di un ecosistema di informazioni e di servizi, secondo quanto previsto
 dal piano di Crescita Digitale, la strategia del Governo per l’innovazione del Paese. Italia Login rappresenta 
 anche un primo passo verso la definizione di un’identità coerente per la pubblica amministrazione centrale.
@@ -37,14 +35,14 @@ serie di strumenti per favorire i commenti partecipativi e la gestione ottimale 
 
 #### [Repository GitHub delle linee guida](https://github.com/italia-it/designer.italia.it)
 
+### Modalità di collaborazione
+
 Designer e programmatori hanno la possibilità di fornire i loro contributi 
-in termini di commenti, segnalazioni errori e proposte di modifiche al codice.
+in termini di scrittura di nuovo codice, commenti e segnalazioni errori.
 I risultati di tale collaborazione saranno monitorabili su
 [designer.italia.it](http://designer.italia.it), un sito parallelo
 continuamente in evoluzione che costituirà il laboratorio dove
 impostare la futura versione stabile e condivisa di design.italia.it.
-
-### Modalità di collaborazione
 
 Il Governo intende avvalersi della collaborazione delle più significative esperienze di design e usabilità presenti
 oggi in Italia, con il coordinamento di AgID. Per questo ha richiesto la collaborazione di alcuni 
@@ -53,13 +51,7 @@ professionisti e delle seguenti associazioni:
 - [AIAP, Associazione Italiana Design della Comunicazione Visiva](http://www.aiap.it)
 - [SIE, Società Italiana Ergonomia e Fattori Umani](http://www.societadiergonomia.it)
 - [ACM SIGCHI Italy, Special Interest Group Computer-Human Interaction](http://sigchi-italy.org/it/informazioni-generali)
+- [Università Milano Bicocca - Dipartimento di Psicologia](http://www.psicologia.unimib.it/index.php)
 
-Le associazioni, tramite i loro presidenti, hanno espresso il loro interesse alla partecipazione degli obiettivi sopra
+Queste organizzazioni, tramite i loro presidenti, hanno espresso il loro interesse alla partecipazione degli obiettivi sopra
 definiti in merito alla comunità dei designer e sviluppatori e delle Linee guida.
-
-I prossimi passi consisteranno principalmente nelle seguenti attività:
-
-1. individuazione dei community leader per raccogliere moderare gli interventi della comunità
-2. indicare una timeline di adeguamento dei siti web della Pubbliche Amministrazioni alle nuove linee guida
-3. sensibilizzare e formare le Pubbliche Amministrazioni sulla corretta redazione dei contenuti
-4. trovare le modalità procedurali più snelle per formalizzare l'adesione al progetto
