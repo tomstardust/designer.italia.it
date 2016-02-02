@@ -27,9 +27,7 @@ La redazione delle linee guida si fonda sulla collaborazione attiva di tutti i p
 costruzione dinamica di contenuti in continuo aggiornamento, grazie ai contributi condivisi di tutti coloro che
 vorranno partecipare al progetto.
 
-Attualmente, le linee guida sono state pubblicate, in versione alfa, all'indirizzo
-[design.italia.it](http://design.italia.it). I testi delle linee guida 
-e il codice sorgente del sito, progettato e realizzato dall'[AgID](http://www.agid.gov.it), 
+I testi delle linee guida e il codice sorgente del sito, progettato e realizzato dall'[AgID](http://www.agid.gov.it), 
 sono disponibili sulla piattaforma [GitHub](http://github.com) che contiene una
 serie di strumenti per favorire i commenti partecipativi e la gestione ottimale dell'evoluzione.
 
@@ -52,6 +50,3 @@ professionisti e delle seguenti associazioni:
 - [SIE, Società Italiana Ergonomia e Fattori Umani](http://www.societadiergonomia.it)
 - [ACM SIGCHI Italy, Special Interest Group Computer-Human Interaction](http://sigchi-italy.org/it/informazioni-generali)
 - [Università Milano Bicocca - Dipartimento di Psicologia](http://www.psicologia.unimib.it/index.php)
-
-Queste organizzazioni, tramite i loro presidenti, hanno espresso il loro interesse alla partecipazione degli obiettivi sopra
-definiti in merito alla comunità dei designer e sviluppatori e delle Linee guida.
