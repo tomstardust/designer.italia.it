@@ -38,12 +38,12 @@ serie di strumenti per favorire i commenti partecipativi e la gestione ottimale 
 Designer e programmatori hanno la possibilità di fornire i loro contributi 
 in termini di scrittura di nuovo codice, commenti e segnalazioni errori.
 I risultati di tale collaborazione saranno monitorabili su
-[designer.italia.it](http://designer.italia.it), un sito parallelo
-continuamente in evoluzione che costituirà il laboratorio dove
-impostare la futura versione stabile e condivisa di design.italia.it.
+[designer.italia.it](http://designer.italia.it), il repository di github, 
+continuamente in evoluzione, che costituisce il laboratorio dove
+impostare la successiva versione stabile e condivisa di design.italia.it.
 
-Il Governo intende avvalersi della collaborazione delle più significative esperienze di design e usabilità presenti
-oggi in Italia, con il coordinamento di AgID. Per questo ha richiesto la collaborazione di alcuni 
+Il Governo si avvale della collaborazione delle più significative esperienze di design e usabilità presenti
+oggi in Italia, con il coordinamento di AgID. Per questo ha ottenuto la collaborazione di alcuni 
 professionisti e delle seguenti associazioni:
 
 - [AIAP, Associazione Italiana Design della Comunicazione Visiva](http://www.aiap.it)
