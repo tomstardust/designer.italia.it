@@ -1,0 +1,15 @@
+---
+template: post.html
+title: Modalità di collaborazione
+published: true
+---
+
+### Modalità di collaborazione
+
+Designer e programmatori hanno la possibilità di fornire i loro contributi 
+in termini di scrittura di nuovo codice, commenti e segnalazioni errori.
+
+I risultati di tale collaborazione saranno monitorabili su
+[designer.italia.it](http://designer.italia.it), il repository di github, 
+costantemente in evoluzione, che costituisce il laboratorio dove
+impostare la successiva versione stabile e condivisa di design.italia.it. 
