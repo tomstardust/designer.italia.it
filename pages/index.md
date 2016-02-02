@@ -39,15 +39,7 @@ A giugno 2016 verranno rilasciate indicazioni visuali per i siti web delle PA lo
 Sono in fase di preparazione indicazioni specifiche per i siti tematici e le Agenzie.
 Si raccomanda in ogni caso di sviluppare il sito seguendo le *[best practice](https://github.com/italia-it/designer.italia.it/search?utf8=%E2%9C%93&q=%22si+deve%22)* internazionali. 
 
-### Modalità di collaborazione
-
-Designer e programmatori hanno la possibilità di fornire i loro contributi 
-in termini di scrittura di nuovo codice, commenti e segnalazioni errori.
-I risultati di tale collaborazione saranno monitorabili su
-[designer.italia.it](http://designer.italia.it), il repository di github, 
-continuamente in evoluzione, che costituisce il laboratorio dove
-impostare la successiva versione stabile e condivisa di design.italia.it.
-
+### Associazioni coinvolte
 Il Governo si avvale della collaborazione delle più significative esperienze di design e usabilità presenti
 oggi in Italia, con il coordinamento di AgID. Per questo ha ottenuto la collaborazione di alcuni 
 professionisti e delle seguenti associazioni:
