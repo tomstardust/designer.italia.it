@@ -5,7 +5,7 @@ published: true
 ---
 ### Principi di valutazione
 
-Per garantire la fruibilità delle informazioni e contribuire a migliorare l'usabilità dei siti e delle applicazioni, le pubbliche amministrazioni dovrebbero considerare la metodologia e i criteri di valutazione per la verifica soggettiva dell’accessibilità delle applicazioni basate su tecnologie internet,  che costituiscono parte integrante del Decreto Ministeriale 8 luglio 2005.
+Per garantire la fruibilità delle informazioni e contribuire a migliorare l'usabilità dei siti e delle applicazioni, le pubbliche amministrazioni sono tenute a rispettare i criteri qui elencati.
 
 #### Percezione 
 Le informazioni e i comandi necessari per l’esecuzione delle attività devono essere sempre disponibili e percettibili.
