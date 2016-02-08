@@ -5,7 +5,7 @@ published: true
 ---
 ### Criteri di valutazione
 
-I criteri essenziali su cui basare la verifica soggettiva dei siti web e delle applicazioni realizzate con tecnologie internet sono:
+Per garantire la fruibilità delle informazioni e contribuire a migliorare l'usabilità dei siti e delle applicazioni, le pubbliche amministrazioni dovrebbero considerare i  principi che costituiscono parte integrante del Decreto Ministeriale 8 luglio 2005.
 
 #### Percezione 
 Le informazioni e i comandi necessari per l’esecuzione delle attività devono essere sempre disponibili e percettibili.
