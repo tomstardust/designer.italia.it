@@ -3,16 +3,11 @@ template: post.html
 title: Misurazione dell'usabilità
 published: true
 ---
+Efficacia, efficienza e soddisfazione dell’utente sono proprietà misurabili e osservabili attraverso questionari, interviste e scale di misurazione, una volta stabilite le tipologie di utenti e gli obiettivi che essi devono raggiungere.
 
-Il livello di usabilità dell’interazione tra utente e sito web dovrebbe essere sottoposto a continua verifica, per garantire il costante miglioramento dell'interfaccia e del sistema nel suo complesso.
+La misurazione del livello di usabilità dei siti web dovrebbe essere effettuata a partire dalla fase di prototipazione dell’interfaccia grafica.
 
-Nel valutare l'usabilità di un sito dovrebbero essere analizzati almeno i seguenti elementi: 
-* L'architettura delle informazioni è strutturata in modo logico e comprensibile? 
-* Le informazioni cercate dall'utente sono facilmente rintracciabili?
-* I servizi offerti sono facilmente accessibili e comprensibili?
-* Esiste uno strumento on line che consenta all'utente di fornire un feedback all'amministrazione? 
-* Esiste uno strumento di ricerca efficace?
+Le statistiche d’uso di siti già online forniscono indicazioni utili, seppur parziali, sull’efficacia dei contenuti.
 
-### Gruppo di lavoro per l'usabilità dei siti web (GLU)
-Il Dipartimento della Funzione Pubblica ha coordinato la redazione di un [Protocollo per la realizzazione di test di usabilità semplificati](http://www.funzionepubblica.gov.it/glu.aspx), al fine di consentire alle Pubbliche amministrazioni di poter realizzare test di usabilità semplificati del proprio sito web. 
-
+### Protocollo per la realizzazione di test di usabiltà
+Per verificare rapidamente l’usabilità di un sito web si possono utilizzare tecniche come quelle suggerite dal [Protocollo per la realizzazione di test di usabilità semplificati](http://www.funzionepubblica.gov.it/glu)
