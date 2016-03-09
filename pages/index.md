@@ -28,7 +28,7 @@ costruzione dinamica di contenuti in continuo aggiornamento, grazie ai contribut
 vorranno partecipare al progetto.
 
 I testi delle linee guida e il codice sorgente del sito, progettato e realizzato dall'[AgID](http://www.agid.gov.it), 
-sono disponibili sulla piattaforma [GitHub](http://github.com) che contiene una
+sono disponibili sulla piattaforma GitHub che contiene una
 serie di strumenti per favorire i commenti partecipativi e la gestione ottimale dell'evoluzione.
 
 #### [Repository GitHub delle linee guida](https://github.com/italia-it/designer.italia.it)
