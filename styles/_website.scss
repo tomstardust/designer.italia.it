@@ -2,7 +2,7 @@
  *  Bootstrap tweaks
  *  -----------------
  */
-$article-max-text-width: 55rem;
+$article-max-text-width: 31em;
 $article-max-block-swidth: 60rem;
 
 #main {
@@ -65,6 +65,25 @@ article table {
  *  Stili custom del sito delle Linee Guida
  *  ---------------------------------------
  */
+#main a {
+  text-decoration: underline;
+
+  &:focus {
+    background: color(colore-blu-italia-50) !important;
+    color: #fff !important;
+  }
+}
+
+#footer a:focus { 
+  outline: #ff8c00 solid 3px !important;
+  background: none !important;
+  color: inherit !important;
+}
+
+#main a.btn {
+  text-decoration: none;
+}
+
 .lg-modal {
   margin: auto;
   background: white;

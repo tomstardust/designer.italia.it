@@ -69,7 +69,7 @@ Il carattere tipografico istituzionale è la famiglia di font [Titillium Web](ht
 ### Dimensioni e interlinea del testo 
 
 <div class="lg-callout lg-callout-must">
-<mark>SI DEVE</mark> Un paragrafo di testo non deve mai essere composto in una dimensione inferiore a 12 sp. La dimensione standard del paragrafo di testo è prevista in 18 sp, con interlinea 24 sp e una spaziatura di 5 em. Un paragrafo di testo deve essere composto sempre nel peso Regular, mai in Light o Bold. L’interlinea avrà generalmente una dimensione pari a circa il 150% della dimensione del corpo del carattere (per esempio un testo in corpo 18 sp avrà un’interlinea di 28 sp).
+<mark>SI DEVE</mark> Un paragrafo di testo non deve mai essere composto in una dimensione inferiore a 12px. La dimensione standard del paragrafo di testo è prevista in 18px. Un paragrafo di testo deve essere composto sempre nel peso Regular, mai in Light o Bold. L’interlinea avrà generalmente una dimensione pari a circa il 150% della dimensione del corpo del carattere (per esempio un testo in corpo 18px avrà un’interlinea di 27px).
 </div>
 
 ### Allineamento 

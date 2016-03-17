@@ -5,8 +5,6 @@ published: true
 ---
 <dfn class="lg-versione-alpha" title="Versione in sviluppo da non considerarsi definitiva">versione alfa</dfn>
 
-### Premessa
-
 Il progetto **Italia Login** persegue la realizzazione di un ecosistema di informazioni e di servizi, secondo quanto previsto
 dal piano di Crescita Digitale, la strategia del Governo per l’innovazione del Paese. Italia Login rappresenta 
 anche un primo passo verso la definizione di un’identità coerente per la pubblica amministrazione centrale.
@@ -29,36 +27,24 @@ La redazione delle linee guida si fonda sulla collaborazione attiva di tutti i p
 costruzione dinamica di contenuti in continuo aggiornamento, grazie ai contributi condivisi di tutti coloro che
 vorranno partecipare al progetto.
 
-Attualmente, le linee guida sono state pubblicate, in versione alfa, all'indirizzo
-[design.italia.it](http://design.italia.it). I testi delle linee guida 
-e il codice sorgente del sito, progettato e realizzato dall'[AgID](http://www.agid.gov.it), 
-sono disponibili sulla piattaforma [GitHub](http://github.com) che contiene una
+I testi delle linee guida e il codice sorgente del sito, progettato e realizzato dall'[AgID](http://www.agid.gov.it), 
+sono disponibili sulla piattaforma GitHub che contiene una
 serie di strumenti per favorire i commenti partecipativi e la gestione ottimale dell'evoluzione.
 
 #### [Repository GitHub delle linee guida](https://github.com/italia-it/designer.italia.it)
 
-Designer e programmatori hanno la possibilità di fornire i loro contributi 
-in termini di commenti, segnalazioni errori e proposte di modifiche al codice.
-I risultati di tale collaborazione saranno monitorabili su
-[designer.italia.it](http://designer.italia.it), un sito parallelo
-continuamente in evoluzione che costituirà il laboratorio dove
-impostare la futura versione stabile e condivisa di design.italia.it.
+### Amministrazioni destinatarie
+Le indicazioni presenti nell'attuale versione alfa delle Linee Guida sono indirizzate principalmente alle pubbliche amministrazioni centrali, e in particolare ai [siti dei Ministeri](http://indicepa.gov.it/ricerca/n-risultati-percategoria.php?keysearch=&categoria=C1&chicambia=CERCA_PERCAT#R2)
+A giugno 2016 verranno rilasciate indicazioni visuali per i siti web delle PA locali.
+Sono in fase di preparazione indicazioni specifiche per i siti tematici e le Agenzie.
+Si raccomanda in ogni caso di sviluppare il sito seguendo le *[best practice](https://github.com/italia-it/designer.italia.it/search?utf8=%E2%9C%93&q=%22si+deve%22)* internazionali. 
 
-### Modalità di collaborazione
-
-Il Governo intende avvalersi della collaborazione delle più significative esperienze di design e usabilità presenti
-oggi in Italia, con il coordinamento di AgID. Per questo ha richiesto la collaborazione di alcuni 
+### Associazioni coinvolte
+Il Governo si avvale della collaborazione delle più significative esperienze di design e usabilità presenti
+oggi in Italia, con il coordinamento di AgID. Per questo ha ottenuto la collaborazione di alcuni 
 professionisti e delle seguenti associazioni:
 
 - [AIAP, Associazione Italiana Design della Comunicazione Visiva](http://www.aiap.it)
-- [ADI, Associazione per il Disegno Industriale](http://www.adi-design.org)
-
-Le associazioni, tramite i loro presidenti, hanno espresso il loro interesse alla partecipazione degli obiettivi sopra
-definiti in merito alla comunità dei designer e sviluppatori e delle Linee guida.
-
-I prossimi passi consisteranno principalmente nelle seguenti attività:
-
-1. individuazione dei community leader per raccogliere moderare gli interventi della comunità
-2. indicare una timeline di adeguamento dei siti web della Pubbliche Amministrazioni alle nuove linee guida
-3. sensibilizzare e formare le Pubbliche Amministrazioni sulla corretta redazione dei contenuti
-4. trovare le modalità procedurali più snelle per formalizzare l'adesione al progetto
+- [SIE, Società Italiana Ergonomia e Fattori Umani](http://www.societadiergonomia.it)
+- [ACM SIGCHI Italy, Special Interest Group Computer-Human Interaction](http://sigchi-italy.org/it/informazioni-generali)
+- [Università Milano Bicocca - Dipartimento di Psicologia](http://www.psicologia.unimib.it/index.php)

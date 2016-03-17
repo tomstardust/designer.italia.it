@@ -1,6 +1,6 @@
 ---
 template: post.html
-title: Contenuti
+title: Contenuti testuali
 published: true
 ---
 

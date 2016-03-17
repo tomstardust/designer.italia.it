@@ -1,10 +1,10 @@
 ---
 template: post.html
-title: Principi generali
+title: Il progetto
 published: true
 ---
 
-Progettare e sviluppare un sito web deve significare innanzitutto porsi nella prospettiva di semplificare l'accesso ai servizi, le procedure da attivare, le richieste al cittadino. 
+Progettare e sviluppare correttamente un sito web significa semplificare l'accesso alle informazioni, ai servizi e alle procedure. 
 Queste sono spesso le attività più sottovalutate nel processo di produzione.
 È utile richiamare pertanto i principi ispiratori nella progettazione di un sito web della Pubblica Amministrazione.
 
@@ -17,7 +17,6 @@ Scrivere in modo chiaro, semplice e sintetico aiuta a chiarire le idee. È neces
 burocratico e specialistico che spesso caratterizza la pubblica amministrazione. Essere chiari permette di non escludere quei cittadini che per età, cultura o capacità, non hanno dimestichezza con il linguaggio della pubblica amministrazione. 
 
 #### Facilitare
-
 Semplificare non è semplice. La facilitazione delle procedure è un passaggio essenziale per il 
 successo dei siti e dei servizi digitali. Ridurre al minimo i passaggi, predisporre strumenti intuitivi, permettere il recupero degli errori, gratificare l’utente costituiscono gli obiettivi essenziali che la pubblica amministrazione deve compiere per il successo del sito e del servizio on line. Il processo che viene definito come Design Thinking costituisce un valido strumento per costruire percorsi facilitati.
 

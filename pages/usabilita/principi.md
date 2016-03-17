@@ -3,9 +3,9 @@ template: post.html
 title: Principi
 published: true
 ---
-### Criteri di valutazione
+### Principi di valutazione
 
-I criteri essenziali su cui basare la verifica soggettiva dei siti web e delle applicazioni realizzate con tecnologie internet sono:
+Per garantire la fruibilità delle informazioni e contribuire a migliorare l'usabilità dei siti e delle applicazioni, le pubbliche amministrazioni sono tenute a rispettare i criteri qui elencati.
 
 #### Percezione 
 Le informazioni e i comandi necessari per l’esecuzione delle attività devono essere sempre disponibili e percettibili.
